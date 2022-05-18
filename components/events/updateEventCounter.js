@@ -4,6 +4,7 @@ function updateEventCounter(counter){
     if(counter == 10) {
         const addNewSquareEvent = new Event('addNewSquare')
         document.dispatchEvent(addNewSquareEvent)
+        return
     }
 }
 
