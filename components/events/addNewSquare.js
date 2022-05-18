@@ -6,7 +6,7 @@ function addNewSquare(){
     incrementCounter()
 
     const squareList = document.querySelector('#squareList')
-    const index = squareList.childNodes.length - 1
+    const index = squareList.childNodes.length
     const newSquare = buildSquare(index)
     squareList.appendChild(newSquare)
 }

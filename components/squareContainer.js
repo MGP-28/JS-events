@@ -15,7 +15,7 @@ function buildSquareContainer(parent){
         [{name: 'id', value: 'squareList'}],
         items
     )
-    list.addEventListener('addNewSquare', addNewSquare)
+    document.addEventListener('addNewSquare', addNewSquare)
     //build container div
     const container = createHTMLElement('ul', '', 
         ['flex', 'justify-center'],
