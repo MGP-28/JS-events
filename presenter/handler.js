@@ -2,7 +2,7 @@ import { incrementCounterStore, getDefaultTextStore, getSquareLetterStore, getSq
 import { updateEventCounter } from '../components/events/updateEventCounter.js'
 
 function incrementCounter(){
-    const eventCounter = incrementCounterStore
+    const eventCounter = incrementCounterStore()
     updateEventCounter(eventCounter)
 }
 

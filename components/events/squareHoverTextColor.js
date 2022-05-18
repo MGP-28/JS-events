@@ -16,7 +16,6 @@ function squareHoverTextColorRemove(event){
 
     const textToShow = document.querySelector('#textToShow')
     const colorClass = [...textToShow.classList].find(el => el.includes('-400'))
-    console.log(colorClass)
     textToShow.classList.remove(colorClass)
 }
 
